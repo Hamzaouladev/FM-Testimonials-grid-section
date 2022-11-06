@@ -90,6 +90,13 @@ picture {
   margin-top: 1.5rem;
 }
 
+.card:first-child {
+  background-image: url(img/bg-pattern-quotation.svg);
+  background-size: 120px;
+  background-repeat: no-repeat;
+  background-position: 70% 0;
+}
+
 .card p {
   line-height: 1.4;
 }
@@ -138,7 +145,7 @@ picture {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1100px) {
   .container {
     grid-template-areas: 
       "a a b e"
